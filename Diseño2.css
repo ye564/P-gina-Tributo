@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+   --colortextos:#777;
+   --colorbotones:#8c2574;
+   --colorfondo: #7AD5C5;
+   --paddingsecciones:60px 0;
+   --marginelementos: 40px;
+}
+body{
+    
+    font-family: 'lato',sans-serif;
+    background-image: url("img/Fondo2.jpg");
+    background-repeat: no-repeat;
+    
+}
+.in{ background-image: url("img/Fondo1.jpg");
+    }
+.content{
+   
+
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: var(--paddingsecciones);
+   
+}
+/**Menú*/
+.menu{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-image: url("img/Transparente.png");
+    
+    
+}
+.menu img{
+    width: 100px;
+    
+}
+.logo{
+
+    height: 70 px;
+}
+.logo img{
+    display: block;
+    height: 100%;
+}
+.links{
+    list-style: none;
+    display: inline-block;
+}
+.links a{
+    text-decoration: none;
+    color:black;
+    padding-left: 150px;
+   
+    font-size: 30px;
+    
+}
+
+/**Web2*/
+.title{
+    text-align: center;
+    margin: 22px 0;
+    font-size: 40px;
+    color: white;
+}
+.txt1{
+    margin: 20px 150px;
+    
+    font-size: 30px;
+    text-align: justify;
+    color: white;
+}
+.img{
+    text-align: justify;
+    margin: 10px 150px;
+    
+}
+.txt2{
+    margin: 20px 150px;
+    
+    font-size: 30px;
+    text-align: justify;
+    color: white;
+}
+.txt3{
+    margin: 20px 150px;
+    
+    font-size: 30px;
+    text-align: justify;
+    color: white;
+}

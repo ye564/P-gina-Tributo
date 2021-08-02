@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+   --colortextos:#777;
+   --colorbotones:#8c2574;
+   --colorfondo: #7AD5C5;
+   --paddingsecciones:60px 0;
+   --marginelementos: 40px;
+}
+body{
+    background-image: url("img/Fondo4.png");
+    font-family: 'lato',sans-serif;
+    background-repeat: no-repeat;
+    
+}
+.in{
+     background-image: url("img/Fondo3.jpg");
+    
+    }
+.content{
+   
+
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: var(--paddingsecciones);
+   
+}
+/**Menú*/
+.menu{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-image: url("img/Transparente.png");
+    
+}
+.menu img{
+    width: 100px;
+    
+}
+.logo{
+
+    height: 70 px;
+}
+.logo img{
+    display: block;
+    height: 100%;
+}
+.links{
+    list-style: none;
+    display: inline-block;
+}
+.links a{
+    text-decoration: none;
+    color:black;
+    padding-left: 150px;
+   
+    font-size: 30px;
+    
+}
+
+/**Web2*/
+.title{
+    text-align: center;
+    margin: 22px 600px;
+    font-size: 40px;
+    background-color: #C4C4C4;
+    border-radius: 10px;
+}
+.txt1{
+    margin: 20px 150px;
+    
+    font-size: 30px;
+    text-align: justify;
+    background-color: #C4C4C4;
+    border-radius: 10px;
+}
+.img{
+    text-align: justify;
+    margin: 10px 150px;
+}
+.txt2{
+    margin: 20px 150px;
+    
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+.txt3{
+    margin: 20px 150px;
+    
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+.alinearizq {
+  
+    margin: 20px 290px;
+    float: left;
+    font-size: 26px;
+    background-color: #777;
+    border-radius: 10px;
+}
+.alinearder {
+    margin: 20px 290px;
+    float: right;
+    font-size: 26px;
+    background-color: #777;
+    border-radius: 10px;
+}
+.alinearizq1 {
+    width: 300px;
+    margin: 10px  160px;
+    float: left;
+   
+    
+    border-radius: 10px;
+}
+.alinearder2 {
+    width: 300px;
+   margin: 10px 210px;
+    float: left;
+    font-size: 26px;
+    
+    border-radius: 10px;
+}

@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+   --colortextos:#777;
+   --colorbotones:#8c2574;
+   --colorfondo: #7AD5C5;
+   --paddingsecciones:60px 0;
+   --marginelementos: 40px;
+}
+body{
+    background-image: url("img/solid1.png");
+    font-family: 'lato',sans-serif;
+    
+}
+.in{
+    background-image: url("img/choixVTT_enduro3.jpg");
+}
+.content{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: var(--paddingsecciones);
+    
+   
+}
+/**Menú*/
+.menu{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-image: url("img/Transparente.png");
+  
+    
+    
+    
+}
+.menu img{
+    width: 100px;
+    
+}
+.logo{
+
+    height: 70 px;
+}
+.logo img{
+    display: block;
+    height: 100%;
+}
+.links{
+    list-style: none;
+    display: inline-block;
+    
+}
+.links a{
+    text-decoration: none;
+    color:black;
+    padding-left: 150px;
+   
+    font-size: 30px;
+    
+    
+   
+}
+.hero{
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.conterTxt{
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero h1{
+    font-family: Rhodium Libre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 171px;
+    
+    color: #FFFFFF;
+    
+}
+.botton1{
+    margin: 0px 12px;
+    background-color: var(--colorfondo);
+    text-align: center;
+
+}
+
+/*Main*/
+.content2{
+    text-align: center;
+}
+.txt1{
+    
+    margin: 20px 80px;
+    font-size: 45px;
+}
+
+.content2 img{
+    width: 823px;
+    height: 484px;
+    border-radius: 50px;
+   
+}
+.txt2{
+    margin: 20px 80px;
+    font-size: 45px;
+
+}
+
+/*sliner*/
+.model{
+ 
+   
+}
+.img{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img a{
+    margin: 0 2px;
+}
+.img a:nth-child(2){
+    flex-shrink: 2;
+}
+.img img{
+    max-width: 100%;
+    box-sizing: border-box ;
+}
+.camT{
+    width: 15px;
+    height: 0px;
+    left: 0px;
+    top: 826.8px;
+}
+.camD{
+    width: 31.37px;
+    height: 28.62px;
+    left: 367.37px;
+    top: 826.8px;
+}
+.slider{
+    width: 100%;
+    margin: 100px auto;
+    height: 900px;
+    overflow: hidden;
+}
+.slider ul{
+    padding: 0;
+    display: flex;
+    width: 500%;
+
+    animation: slider 10s infinite;
+}
+.slider li{
+width: 100%;
+list-style: none;
+}
+.slider li img{
+    width: 30%;
+}
+ 
+@keyframes slider{
+    0%{ margin-left: 0;}
+    15%{ margin-left: 0;}
+
+    20%{ margin-left: -100%;}
+    35%{ margin-left: -100%;}
+
+    40%{ margin-left: -200%;}
+    65%{ margin-left: -200%;}
+    
+    70%{ margin-left: -300%;}
+    85%{ margin-left: -300%;}
+    
+    90%{ margin-left: -400%;}
+    100%{ margin-left: -400%;}
+    
+}
+
+    

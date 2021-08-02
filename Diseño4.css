@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+   --colortextos:#777;
+   --colorbotones:#8c2574;
+   --colorfondo: #7AD5C5;
+   --paddingsecciones:60px 0;
+   --marginelementos: 40px;
+}
+body{
+    
+    font-family: 'lato',sans-serif;
+    
+}
+.content_gl{
+    text-align: center;
+  background-color: #7AD5C5;
+  
+  max-width: 1350px;
+  top: auto;
+
+}
+
+.content{
+   
+
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: var(--paddingsecciones);
+   
+}
+/**Menú*/
+.menu{
+    max-width: 1200px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("img/Fondo3.jpg");
+    height: 70px;
+    
+    opacity: var(--colorfondo) 0.5;
+
+     
+    
+}
+.menu img{
+    width: 100px;
+    
+}
+.logo{
+
+    height: 70 px;
+}
+.logo img{
+    display: block;
+    height: 100%;
+}
+.links{
+    list-style: none;
+    display: inline-block;
+}
+.links a{
+    text-decoration: none;
+    color:black;
+    padding-left: 150px;
+   
+    font-size: 30px;
+    
+}
+/*Web 4*/
+.title{
+    text-align: center;
+    margin: 22px 600px;
+    font-size: 40px;
+   
+}
+.txt1{
+    margin: 20px 150px;
+    
+    font-size: 30px;
+    text-align: justify;
+    
+}
+.alinearizq {
+    width: 300px;
+    margin: 10px  160px;
+    float: left;
+   
+    
+    border-radius: 10px;
+}
+.alinearder {
+    width: 300px;
+   margin: 10px 210px;
+    float: left;
+    font-size: 26px;
+    
+    border-radius: 10px;
+}
+@media (max-width:800px){
+    .content_gl{
+        background: #8c2574;
+        margin: auto;
+    }
+    .body{
+
+    }
+}
